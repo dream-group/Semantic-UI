@@ -9095,7 +9095,7 @@ $.fn.modal = function(parameters) {
         },
 
         refresh: function() {
-          module.remove.scrolling();
+          //module.remove.scrolling();
           module.cacheSizes();
           module.set.screenHeight();
           module.set.type();
