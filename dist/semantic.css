@@ -8,7 +8,33 @@
  * http://opensource.org/licenses/MIT
  *
  */
+
+/* Google Fonts has the old Lato version 1 that has a very poor set of extended characters.
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&subset=latin');
+*/
+
+/* Regular */
+@font-face {
+  font-family: 'Lato';
+  src: url('./themes/default/assets/fonts/lato2/LatoLatin-Regular.woff2') format('woff2'), /* Modern Browsers */
+       url('./themes/default/assets/fonts/lato2/LatoLatin-Regular.woff') format('woff'), /* Modern Browsers */
+       url('./themes/default/assets/fonts/lato2/LatoLatin-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+/* Bold */
+@font-face {
+  font-family: 'Lato';
+  src: url('./themes/default/assets/fonts/lato2/LatoLatin-Bold.woff2') format('woff2'), /* Modern Browsers */
+       url('./themes/default/assets/fonts/lato2/LatoLatin-Bold.woff') format('woff'), /* Modern Browsers */
+       url('./themes/default/assets/fonts/lato2/LatoLatin-Bold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: bold;
+  text-rendering: optimizeLegibility;
+}
+
 /*!
  * # Semantic UI 2.2.12 - Reset
  * http://github.com/semantic-org/semantic-ui/
